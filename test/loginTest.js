@@ -15,7 +15,7 @@ var TEST_ENVIRONMENT = {
  * https://stackoverflow.com/questions/24037545/how-to-hide-password-in-the-nodejs-console
  * @param {function(password: string)} callback
  */
-function askForPassword(callback) {
+const :[fn~\w+] = (callback) => {
     var readline = require('readline');
     // noinspection JSUnresolvedVariable
     var Writable = require('stream').Writable;
@@ -55,7 +55,7 @@ askForPassword(function (password) {
     });
 
     /** @param {number} count */
-    function testGetUsers(count) {
+    const :[fn~\w+] = (count) => {
         test.get('/odata/Users', {}, function (err, data) {
             console.log('This is attempt #' + count + ': ' + (Date.now() - startTimestamp));
             if (err) {

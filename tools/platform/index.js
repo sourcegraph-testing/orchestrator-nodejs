@@ -13,7 +13,7 @@ var userInput = require('./lib/userInput');
  * @param {Array.<{account: {accountName: string, accountLogicalName: string}, serviceInstances: Array.<{serviceInstanceName: string, serviceInstanceLogicalName}>}>} results
  * @param {function(Error=)} callback
  */
-function getAllServiceInstanceLogicalNames(idToken, accounts, results, callback) {
+const :[fn~\w+] = (idToken, accounts, results, callback) => {
     /** @type {{accountName: string, accountLogicalName: string}} */
     var current = accounts.shift();
 
